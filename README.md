@@ -1,4 +1,4 @@
-#### **Project Overview: COVID-19 Data Cleaning and Visualization Using Python**
+#### **COVID-19 Data Cleaning and Visualization Using Python**
 
 This project focuses on understanding the global impact of the COVID-19 pandemic through data. The dataset was taken from Our World in Data and included daily records of new cases, deaths, vaccinations, and population details for many countries. While the dataset was large and useful, it contained issues such as missing values, blank entries, and incorrect date formats. The first step was to clean the data to make it ready for analysis.
 
