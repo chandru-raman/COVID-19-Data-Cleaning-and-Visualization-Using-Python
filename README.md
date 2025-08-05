@@ -1,21 +1,15 @@
 #### **Project Overview: COVID-19 Data Cleaning and Visualization Using Python**
 
-In this project, we set out to explore the global impact of the COVID-19 pandemic through data. The dataset, obtained from Our World in Data, contained extensive records on daily new cases, deaths, vaccinations, and population metrics across various countries. At first glance, the dataset was rich, but also raw—it included inconsistencies such as blank strings, improperly formatted dates, and scattered missing values. Thus, our first task was clear: the data had to be cleaned.
+This project focuses on understanding the global impact of the COVID-19 pandemic through data. The dataset was taken from Our World in Data and included daily records of new cases, deaths, vaccinations, and population details for many countries. While the dataset was large and useful, it contained issues such as missing values, blank entries, and incorrect date formats. The first step was to clean the data to make it ready for analysis.
 
-Using the pandas library in Python, we systematically performed each data cleaning step. We removed empty strings from textual columns, trimmed unnecessary whitespaces, and ensured that the date column was correctly converted into datetime objects. This allowed for time-based operations such as grouping by year or month. Additionally, irrelevant or missing values were handled with care to preserve the integrity of the analysis.
+Using the pandas library in Python, all empty strings were removed, extra spaces were trimmed, and date values were fixed to the correct format. This made it possible to group and filter the data by months or years. Missing or incorrect entries were also handled carefully to make sure the results would be accurate.
 
-Once the data was cleaned, we exported the final dataset to a separate CSV file for safekeeping and future use. This step made the data ready for in-depth analysis and visualization, a critical part of understanding trends hidden in rows and columns.
+Once the data was cleaned, it was saved as a new CSV file for future use. This file was then used to create charts and graphs to better understand the information.
 
-The next phase of the project focused on data visualization. Using the matplotlib library, we created a series of seven distinct charts to analyse various aspects of the pandemic. These visualizations were designed to be beginner-friendly and insightful. For example, we created a line chart to track new daily COVID-19 cases in India, helping to visualize spikes and waves. A bar chart was used to compare total deaths across countries, highlighting those hit hardest.
+The second part of the project involved creating different types of visualizations using the matplotlib library. A line chart was made to show daily COVID-19 cases in India, which helped to see the rise and fall of cases. A bar chart was created to compare the number of deaths in different countries. A horizontal bar chart showed which countries had the highest vaccination numbers.
 
-Further, we created a horizontal bar chart to compare total vaccinations among nations. A scatter plot offered a perspective on the relationship between population size and total reported cases—revealing whether larger populations directly correlated with higher case numbers. Another powerful visualization was a filled area chart, comparing total COVID-19 cases over time for India, Brazil, and the United States. To enhance clarity, this chart was later modified to display total cases year-wise, simplifying the trend analysis and enabling country-to-country comparisons.
+A scatter plot was also made to see if there was a connection between the size of a country’s population and the total number of COVID-19 cases. Another chart was made to compare total COVID-19 cases over time in India, the United States, and Brazil. This chart was later adjusted to show total cases year by year for easier comparison.
 
-The insights derived were both fascinating and sobering. We observed India’s sharp waves of infection, the United States’ consistently high numbers, and Brazil’s vaccination and case patterns. Through visual storytelling, we made complex data more understandable and accessible.
+From these charts, it became clear how different countries were affected by the virus. Some had higher cases, others had more deaths, and some had better vaccination numbers. These visual tools made it easier to understand the data.
 
-In essence, this project exemplified the full cycle of data analytics: starting from raw data cleaning to building meaningful charts that tell a story. Using only pandas and matplotlib, we showcased the power of Python for real-world problem solving. For beginners stepping into data analysis, this project stands as a comprehensive example of how to transform messy data into clear visual insights—turning numbers into knowledge.
-
-
-
-
-
-
+This project shows how raw data can be cleaned, organized, and used to make simple but powerful charts. Using only pandas and matplotlib, the project turned messy data into clear visual information that helps explain how COVID-19 spread across the world.
